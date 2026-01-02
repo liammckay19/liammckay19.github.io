@@ -14,7 +14,9 @@ layout: default
 </p>
 
 {% if page.image %}
+<a href="{{ page.image | relative_url }}" target="_blank">
   <img src="{{ page.image }}" alt="{{ page.title }}">
+</a>
 {% endif %}
 
 <ul>
@@ -25,3 +27,9 @@ layout: default
     <li><a href="{{ page.download_url }}">Download</a></li>
   {% endif %}
 </ul>
+
+
+<section>
+  {{ content }}
+</section>
+

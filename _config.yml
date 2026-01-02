@@ -6,6 +6,12 @@ baseurl: ""
 markdown: kramdown
 permalink: pretty
 
+social:
+  instagram: "https://instagram.com/liammckaydrums"
+  linkedin: "https://linkedin.com/in/liam-mckay-202020"
+  facebook: "https://facebook.com/liammckaydrums"
+  linktree: "https://linktr.ee/liammckaydrums"
+  
 collections:
   music:
     output: true
@@ -18,3 +24,7 @@ collections:
   videos:
     output: true
     permalink: /videos/:name/
+
+  visualart:
+    output: true
+    permalink: /visualart/:name/

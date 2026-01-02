@@ -13,6 +13,7 @@ body {
 nav {
   font-family: 'Courier Prime', monospace;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 nav a {
@@ -101,5 +102,38 @@ main {
   margin: 20px auto;    /* center horizontally with margin */
   border: 2px solid #ccc; /* subtle DIY/retro style */
   box-shadow: 1px 1px 0 #999; /* optional vintage touch */
+}
+
+
+.header-center {
+  text-align: center; /* centers the text and inline elements */
+}
+
+.header-center img {
+  width: 30px;        /* keeps the original size */
+  display: inline-block;     /* block ensures margin auto works if needed */
+  margin: 0 auto;     /* centers image in container */
+}
+
+.header-center p {
+  margin: 8px 0 0 0;  /* small gap below the image */
+  font-family: 'Courier Prime', monospace; /* retro typewriter aesthetic */
+}
+
+
+.social-links {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.social-links a img {
+  margin: 0 8px;
+  vertical-align: middle;
+  filter: grayscale(100%); /* optional retro look */
+  transition: filter 0.3s;
+}
+
+.social-links a img:hover {
+  filter: grayscale(0%);
 }
 
