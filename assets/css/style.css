@@ -107,6 +107,7 @@ main {
 
 .header-center {
   text-align: center; /* centers the text and inline elements */
+  font-size: 20pt;
 }
 
 .header-center img {
