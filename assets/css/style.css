@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Libre+Baskerville&display=swap');
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  background: #f6f2e9;
+  color: #1a1a1a;
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 16px;
+  line-height: 1.6;
+}
+
+nav {
+  font-family: 'Courier Prime', monospace;
+  margin-bottom: 40px;
+}
+
+nav a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  font-family: 'Courier Prime', monospace;
+  font-weight: normal;
+}
+
+audio {
+  width: 100%;
+  margin: 16px 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  border-top: 1px dashed #999;
+  padding-top: 24px;
+}

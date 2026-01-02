@@ -1,0 +1,20 @@
+title: "Liam McKay"
+description: "Music, Code, and Video Portfolio"
+url: "https://liammckay19.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+collections:
+  music:
+    output: true
+    permalink: /music/:name/
+
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+  videos:
+    output: true
+    permalink: /videos/:name/
