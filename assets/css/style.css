@@ -43,3 +43,33 @@ main {
   border-top: 1px dashed #999;
   padding-top: 24px;
 }
+
+.music-gallery figure {
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  padding: 8px;
+  background: #fdfaf6; /* off-white for retro feel */
+}
+
+.music-gallery img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.music-gallery figcaption {
+  font-family: 'Courier Prime', monospace;
+  font-size: 0.9em;
+  color: #333;
+}
+
+.homepage-photo {
+  width: 100%;          /* fill the container width */
+  max-width: 720px;     /* optional: constrain on large screens */
+  height: auto;         /* preserve aspect ratio */
+  display: block;
+  margin: 20px auto;    /* center horizontally with margin */
+  border: 2px solid #ccc; /* subtle DIY/retro style */
+  box-shadow: 1px 1px 0 #999; /* optional vintage touch */
+}
+

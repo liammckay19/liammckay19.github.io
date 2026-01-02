@@ -4,15 +4,25 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-{{ page.embed }}
+<!-- Bandcamp embed -->
+{{ page.embed | raw }}
 
-<p>
-  Duration: {{ page.duration }}<br>
-  Year: {{ page.year }}
-</p>
+<p>Duration: {{ page.duration }}</p>
+<p>Year: {{ page.year }}</p>
 
-{% if page.content %}
-  <section>
-    {{ content }}
+
+<section>
+  {{ content }}
+</section>
+
+{% if page.images %}
+  <section class="music-gallery">
+    {% for img in page.images %}
+      <figure>
+        <img src="{{ img.file }}" alt="{{ img.caption }}">
+        <figcaption>{{ img.caption }}</figcaption>
+      </figure>
+    {% endfor %}
   </section>
 {% endif %}
+
