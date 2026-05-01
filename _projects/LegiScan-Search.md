@@ -4,7 +4,7 @@ title: "Legislation Summarization Tool: LegiScan Search"
 type: "CS"
 description: "Uses API keys from Google Gemini and LegiScan (a government legislation tracking tool - API and crowd funded) that summarizes legislation into words that the average voter can understand."
 tech: [HTML, Google Gemeni]
-repo_url: "https://liammckay19.github.io/LegiScan-Search/"
+repo_url: "https://github.com/liammckay19/LegiScan-Search"
 status: "active"
 ---
 
